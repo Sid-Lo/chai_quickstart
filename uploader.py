@@ -6,14 +6,14 @@ from starter_bot import Bot
 
 from chai_py.defaults import GUEST_UID, GUEST_KEY
 
-DEVELOPER_UID = None
-DEVELOPER_KEY = None
+DEVELOPER_UID = "Yugm3BA6mzXF5mg3SpLN9Im0S3s1"
+DEVELOPER_KEY = "ZCmxjUZ2lJ3YNVj8EyCcpxc6unLRqRwsCKnXCrX2h8WCoIZvpmH8I_fCawCHbRjfTndQIAmrKABdSY3nWWDPEA"
 
 if DEVELOPER_KEY is None or DEVELOPER_UID is None:
     raise RuntimeError("Please fetch your UID and KEY from the bottom of the Chai Developer Platform. https://chai.ml/dev")
 
 set_auth(DEVELOPER_UID, DEVELOPER_KEY)
-BOT_IMAGE_URL = "https://cutt.ly/lx0gnM9"
+BOT_IMAGE_URL = "https://images.chesscomfiles.com/uploads/v1/article/24256.f446db09.668x375o.a367c450ba18@2x.jpeg"
 
 package(
     Metadata(

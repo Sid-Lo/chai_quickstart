@@ -6,4 +6,4 @@ class Bot(ChaiBot):
         self.logger.info("Setting up...")
 
     async def on_message(self, update: Update) -> str:
-        return "Hi, I'm ExampleBot."
+        return "Hi, I'm Chess Bot."
